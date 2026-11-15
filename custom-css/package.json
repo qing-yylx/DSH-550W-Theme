@@ -1,0 +1,34 @@
+{
+  "name": "@local/custom-css",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Inject your own CSS into the DSH Web GUI from a plain file on disk",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "custom.css",
+    "assets",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "安装说明.md",
+    "install.ps1",
+    "uninstall.ps1"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

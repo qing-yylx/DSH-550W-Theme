@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "自定义 CSS",
+    "description": "把自己写的 CSS 注入 GUI：工作区的 custom.css 会被当成最后一个样式表写入页面，保存后约 1 秒自动生效，不用重启也不用刷新。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

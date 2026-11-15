@@ -1,0 +1,3 @@
+- insert:
+    - id: custom-css
+      name: '@local/custom-css'

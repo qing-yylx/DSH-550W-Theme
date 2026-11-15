@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Custom CSS",
+    "description": "Inject your own CSS into the GUI: custom.css from the workspace is added as the last stylesheet of the page and re-applied about a second after you save it — no restart, no reload.",
+    "detail": "docs/DETAIL.md"
+  }
+}
